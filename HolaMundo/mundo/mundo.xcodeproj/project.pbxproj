@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A42A3E295E909500378E32 /* mundoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A42A3D295E909500378E32 /* mundoApp.swift */; };
+		41A42A40295E909500378E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A42A3F295E909500378E32 /* ContentView.swift */; };
+		41A42A42295E909700378E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A42A41295E909700378E32 /* Assets.xcassets */; };
+		41A42A45295E909700378E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A42A44295E909700378E32 /* Preview Assets.xcassets */; };
+		41A42A50295E909700378E32 /* mundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A42A4F295E909700378E32 /* mundoTests.swift */; };
+		41A42A5A295E909700378E32 /* mundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A42A59295E909700378E32 /* mundoUITests.swift */; };
+		41A42A5C295E909700378E32 /* mundoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A42A5B295E909700378E32 /* mundoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A42A4C295E909700378E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A42A32295E909500378E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A42A39295E909500378E32;
+			remoteInfo = mundo;
+		};
+		41A42A56295E909700378E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A42A32295E909500378E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A42A39295E909500378E32;
+			remoteInfo = mundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41A42A3A295E909500378E32 /* mundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A42A3D295E909500378E32 /* mundoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mundoApp.swift; sourceTree = "<group>"; };
+		41A42A3F295E909500378E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41A42A41295E909700378E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A42A44295E909700378E32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A42A46295E909700378E32 /* mundo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mundo.entitlements; sourceTree = "<group>"; };
+		41A42A4B295E909700378E32 /* mundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A42A4F295E909700378E32 /* mundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mundoTests.swift; sourceTree = "<group>"; };
+		41A42A55295E909700378E32 /* mundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A42A59295E909700378E32 /* mundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mundoUITests.swift; sourceTree = "<group>"; };
+		41A42A5B295E909700378E32 /* mundoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mundoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A42A37295E909500378E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A48295E909700378E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A52295E909700378E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A42A31295E909500378E32 = {
+			isa = PBXGroup;
+			children = (
+				41A42A3C295E909500378E32 /* mundo */,
+				41A42A4E295E909700378E32 /* mundoTests */,
+				41A42A58295E909700378E32 /* mundoUITests */,
+				41A42A3B295E909500378E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A42A3B295E909500378E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A42A3A295E909500378E32 /* mundo.app */,
+				41A42A4B295E909700378E32 /* mundoTests.xctest */,
+				41A42A55295E909700378E32 /* mundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A42A3C295E909500378E32 /* mundo */ = {
+			isa = PBXGroup;
+			children = (
+				41A42A3D295E909500378E32 /* mundoApp.swift */,
+				41A42A3F295E909500378E32 /* ContentView.swift */,
+				41A42A41295E909700378E32 /* Assets.xcassets */,
+				41A42A46295E909700378E32 /* mundo.entitlements */,
+				41A42A43295E909700378E32 /* Preview Content */,
+			);
+			path = mundo;
+			sourceTree = "<group>";
+		};
+		41A42A43295E909700378E32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41A42A44295E909700378E32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41A42A4E295E909700378E32 /* mundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41A42A4F295E909700378E32 /* mundoTests.swift */,
+			);
+			path = mundoTests;
+			sourceTree = "<group>";
+		};
+		41A42A58295E909700378E32 /* mundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41A42A59295E909700378E32 /* mundoUITests.swift */,
+				41A42A5B295E909700378E32 /* mundoUITestsLaunchTests.swift */,
+			);
+			path = mundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A42A39295E909500378E32 /* mundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A42A5F295E909700378E32 /* Build configuration list for PBXNativeTarget "mundo" */;
+			buildPhases = (
+				41A42A36295E909500378E32 /* Sources */,
+				41A42A37295E909500378E32 /* Frameworks */,
+				41A42A38295E909500378E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mundo;
+			productName = mundo;
+			productReference = 41A42A3A295E909500378E32 /* mundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A42A4A295E909700378E32 /* mundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A42A62295E909700378E32 /* Build configuration list for PBXNativeTarget "mundoTests" */;
+			buildPhases = (
+				41A42A47295E909700378E32 /* Sources */,
+				41A42A48295E909700378E32 /* Frameworks */,
+				41A42A49295E909700378E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A42A4D295E909700378E32 /* PBXTargetDependency */,
+			);
+			name = mundoTests;
+			productName = mundoTests;
+			productReference = 41A42A4B295E909700378E32 /* mundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41A42A54295E909700378E32 /* mundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A42A65295E909700378E32 /* Build configuration list for PBXNativeTarget "mundoUITests" */;
+			buildPhases = (
+				41A42A51295E909700378E32 /* Sources */,
+				41A42A52295E909700378E32 /* Frameworks */,
+				41A42A53295E909700378E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A42A57295E909700378E32 /* PBXTargetDependency */,
+			);
+			name = mundoUITests;
+			productName = mundoUITests;
+			productReference = 41A42A55295E909700378E32 /* mundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A42A32295E909500378E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					41A42A39295E909500378E32 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					41A42A4A295E909700378E32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41A42A39295E909500378E32;
+					};
+					41A42A54295E909700378E32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41A42A39295E909500378E32;
+					};
+				};
+			};
+			buildConfigurationList = 41A42A35295E909500378E32 /* Build configuration list for PBXProject "mundo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41A42A31295E909500378E32;
+			productRefGroup = 41A42A3B295E909500378E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A42A39295E909500378E32 /* mundo */,
+				41A42A4A295E909700378E32 /* mundoTests */,
+				41A42A54295E909700378E32 /* mundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A42A38295E909500378E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A42A45295E909700378E32 /* Preview Assets.xcassets in Resources */,
+				41A42A42295E909700378E32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A49295E909700378E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A53295E909700378E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A42A36295E909500378E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A42A40295E909500378E32 /* ContentView.swift in Sources */,
+				41A42A3E295E909500378E32 /* mundoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A47295E909700378E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A42A50295E909700378E32 /* mundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A42A51295E909700378E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A42A5C295E909700378E32 /* mundoUITestsLaunchTests.swift in Sources */,
+				41A42A5A295E909700378E32 /* mundoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A42A4D295E909700378E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A42A39295E909500378E32 /* mundo */;
+			targetProxy = 41A42A4C295E909700378E32 /* PBXContainerItemProxy */;
+		};
+		41A42A57295E909700378E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A42A39295E909500378E32 /* mundo */;
+			targetProxy = 41A42A56295E909700378E32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41A42A5D295E909700378E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41A42A5E295E909700378E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41A42A60295E909700378E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mundo/mundo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mundo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41A42A61295E909700378E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mundo/mundo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mundo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		41A42A63295E909700378E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mundo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mundo";
+			};
+			name = Debug;
+		};
+		41A42A64295E909700378E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mundo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mundo";
+			};
+			name = Release;
+		};
+		41A42A66295E909700378E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mundo;
+			};
+			name = Debug;
+		};
+		41A42A67295E909700378E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hola.mundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A42A35295E909500378E32 /* Build configuration list for PBXProject "mundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A42A5D295E909700378E32 /* Debug */,
+				41A42A5E295E909700378E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A42A5F295E909700378E32 /* Build configuration list for PBXNativeTarget "mundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A42A60295E909700378E32 /* Debug */,
+				41A42A61295E909700378E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A42A62295E909700378E32 /* Build configuration list for PBXNativeTarget "mundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A42A63295E909700378E32 /* Debug */,
+				41A42A64295E909700378E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A42A65295E909700378E32 /* Build configuration list for PBXNativeTarget "mundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A42A66295E909700378E32 /* Debug */,
+				41A42A67295E909700378E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A42A32295E909500378E32 /* Project object */;
+}
